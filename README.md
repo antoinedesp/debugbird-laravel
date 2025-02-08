@@ -68,4 +68,4 @@ Feel free to submit issues and pull requests to improve this SDK.
 
 ## License
 
-This package is proprietary. Contact [developer@yutechnologies.co](mailto:developer@yutechnologies.co) for licensing inquiries.
+This package is proprietary. Contact [contact@debugbird.com](mailto:contact@debugbird.com) for licensing inquiries.
