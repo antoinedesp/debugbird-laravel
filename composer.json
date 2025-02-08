@@ -1,0 +1,32 @@
+{
+    "name": "debugbird/laravel",
+    "type": "library",
+    "description": "Debugbird Laravel",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Debugbird",
+            "email": "contact@debugbird.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Debugbird\\Laravel\\": "src/"
+        }
+    },
+    "require": {
+        "debugbird/php": "dev-main",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DebugBird\\Laravel\\DebugBirdServiceProvider"
+            ]
+        }
+    }
+
+}
