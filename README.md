@@ -23,7 +23,6 @@ After publishing, configure your `.env` file:
 ```env
 DEBUGBIRD_PROJECT_ID=your_project_id
 DEBUGBIRD_API_KEY=your_api_key
-DEBUGBIRD_LOG_LEVEL=error # Available options: debug, info, warning, error, critical
 ```
 
 You can disable log or crash collection in your `.env` file:
