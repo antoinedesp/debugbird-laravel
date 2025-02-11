@@ -2,7 +2,6 @@
     "name": "debugbird/laravel",
     "type": "library",
     "description": "Debugbird Laravel",
-    "version": "1.0.0",
     "license": "proprietary",
     "authors": [
         {
@@ -16,7 +15,7 @@
         }
     },
     "require": {
-        "debugbird/php": "1.0.0",
+        "debugbird/php": "^1.0.0",
         "illuminate/support": "^9.0|^10.0|^11.0"
     },
     "extra": {

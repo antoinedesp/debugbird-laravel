@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bfed935bf016291078e2aa2ebccb00a",
+    "content-hash": "e786774c930fc64e55244c400bfd1097",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -77,19 +77,18 @@
         },
         {
             "name": "debugbird/php",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/antoinedesp/debugbird-php-sdk.git",
+                "url": "https://github.com/antoinedesp/debugbird-php.git",
                 "reference": "dfe605356e3fabbda59cd62304d631b6382f1a8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antoinedesp/debugbird-php-sdk/zipball/dfe605356e3fabbda59cd62304d631b6382f1a8a",
+                "url": "https://api.github.com/repos/antoinedesp/debugbird-php/zipball/dfe605356e3fabbda59cd62304d631b6382f1a8a",
                 "reference": "dfe605356e3fabbda59cd62304d631b6382f1a8a",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -108,8 +107,8 @@
             ],
             "description": "DebugBird PHP SDK",
             "support": {
-                "issues": "https://github.com/antoinedesp/debugbird-php-sdk/issues",
-                "source": "https://github.com/antoinedesp/debugbird-php-sdk/tree/main"
+                "issues": "https://github.com/antoinedesp/debugbird-php/issues",
+                "source": "https://github.com/antoinedesp/debugbird-php/tree/1.0.0"
             },
             "time": "2025-02-08T09:56:44+00:00"
         },
@@ -1282,11 +1281,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "debugbird/php": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
