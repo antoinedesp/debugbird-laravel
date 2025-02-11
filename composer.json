@@ -4,8 +4,6 @@
     "description": "Debugbird Laravel",
     "version": "1.0.0",
     "license": "proprietary",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Debugbird",
